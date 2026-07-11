@@ -1,1 +1,0 @@
-# lightbulb-company.github.io

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lightbulb Co.</title>
+  <title>Lightbulb</title>
   <link rel="preconnect" href="https://rsms.me/">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <style>
@@ -31,8 +31,14 @@
     .content {
       flex: 1;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
+      gap: 1em;
+    }
+    .logo {
+      width: 5.2em;
+      height: 5.2em;
     }
     .footer {
       width: 100%;
@@ -51,11 +57,13 @@
       font-size: 0.8em;
       font-weight: 300;
       color: #222222;
+      user-select: text;
     }
   </style>
 </head>
 <body>
   <div class="content">
+    <img class="logo" src="logo.svg">
     <div class="main-text">LIGHTBULB</div>
   </div>
   <div class="footer">
